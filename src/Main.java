@@ -10,7 +10,7 @@ public class Main {
         byte a = 127;
         short b = 32_767;
         int c = 2_147_483_647;
-        long d = 96;
+        long d = 96L;
         float e = 3.4E+38F;
         double f = 1.7E+308;
         System.out.println("Значение переменной a с типом byte равно " + a);
@@ -143,13 +143,13 @@ public class Main {
         int salaryMasha = 67_760;
         int salaryDenis = 83_690;
         int salaryCristina = 76_230;
-        double boostMasha = salaryMasha*0.1+salaryMasha;
+        double boostMasha = salaryMasha*1.1;
         double riseMasha = boostMasha*12-salaryMasha*12;
         System.out.println("Маша теперь получает " +boostMasha+ " рублей. Годовой доход вырос на " +riseMasha+ " рублей");
-        double boostDenis = salaryDenis*0.1 +salaryDenis;
+        double boostDenis = salaryDenis*0.1+salaryDenis;
         double riseDenis = boostDenis*12-salaryDenis*12;
         System.out.println("Денис теперь получает " +boostDenis+ " рублей. Годовой доход вырос на " +riseDenis+ " рублей");
-        double boostCristina = salaryCristina*0.1+salaryCristina;
+        double boostCristina = salaryCristina*1.1;
         double riseCristina = boostCristina*12-salaryCristina*12;
         System.out.println("Кристина теперь получает " +boostCristina+ " рублей. Годовой доход вырос на " +riseCristina+ " рублей");
 
